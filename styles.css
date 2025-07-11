@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin: auto;
       align-items: center;
 }
 header{
@@ -29,6 +29,7 @@ nav{
 }
 
 .hero {
+    margin: 20px 60px;
     padding: 60px 20px;
     background: white;
     align-items: center;
@@ -40,4 +41,45 @@ nav{
     font-weight: bold;
     margin-bottom: 20px;
 }
+
+.see-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 20px;
+    margin: 20px 60px;
+    gap: 40px;
+   background-color: rgb(247, 247, 255);
+}
+.see-section .text {
+    max-width: 300px;
+    margin: 3%;
+  
+}
+.stats {
+    background-color: rgb(192, 198, 253);
+    padding: 40px 20px;
+    margin: 20px 60px;
+}
+
+.stats h1 {
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 30px;
+      color: #4E47FF;
+      text-align: center;
+}
+
+.stats-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.stat-box h3 {
+    color: #6366f1;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
 
